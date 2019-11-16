@@ -11,7 +11,6 @@ setup(
     name="artagger",
     version="0.1.3",
     description="A Ripple Down Rules-based (RDR) Part-Of-Speech Tagger implementation based on RDRPOSTagger.",
-    # other arguments omitted
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Frans Huang",
@@ -26,6 +25,13 @@ setup(
     include_package_data=True,
     license="MIT",
     zip_safe=False,
+    keywords=[
+        "NLP",
+        "natural language processing",
+        "part-of-speech tagger",
+        "text analytics",
+        "text processing",
+    ],
     classifiers=[
         "Intended Audience :: Developers",
         "Natural Language :: Thai",
